@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Tech Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Nexus Tech Solutions</h1>
+            <p>Serviços de tecnologia para pequenas empresas em Recife – PE</p>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="institucional">
+            <h2>Quem Somos</h2>
+            <p>A <strong>Nexus Tech Solutions</strong> ajuda pequenas empresas e profissionais autônomos a crescerem no ambiente digital com soluções práticas, eficientes e acessíveis.</p>
+        </section>
+
+        <section class="servicos">
+            <h2>Nossos Serviços</h2>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Serviço</th>
+                            <th>Descrição</th>
+                            <th>Valor Inicial</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Criação de Sites</strong></td>
+                            <td>Desenvolvimento de sites institucionais</td>
+                            <td>R$ 1.500</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Manutenção Web</strong></td>
+                            <td>Correções e atualizações de sites</td>
+                            <td>R$ 250/mês</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Suporte Técnico</strong></td>
+                            <td>Atendimento remoto para empresas</td>
+                            <td>R$ 120/hora</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Consultoria</strong></td>
+                            <td>Análise de processos e soluções digitais</td>
+                            <td>R$ 180/hora</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="planos">
+            <h2>Planos de Suporte</h2>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Plano</th>
+                            <th>Atendimento</th>
+                            <th>Horário</th>
+                            <th>Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Essencial</strong></td>
+                            <td>Remoto</td>
+                            <td>Comercial</td>
+                            <td>R$ 199/mês</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Profissional</strong></td>
+                            <td>Remoto + telefone</td>
+                            <td>Comercial</td>
+                            <td>R$ 349/mês</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Business</strong></td>
+                            <td>Prioritário</td>
+                            <td>Estendido</td>
+                            <td>R$ 599/mês</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="contato">
+            <h2>Solicite Atendimento</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nome">Nome do Cliente *</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail *</label>
+                    <input type="email" id="email" name="email" required placeholder="seu@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="telefone">Telefone *</label>
+                    <input type="tel" id="telefone" name="telefone" required placeholder="(81) 99999-9999">
+                </div>
+
+                <div class="form-group">
+                    <label for="servico">Serviço de Interesse *</label>
+                    <select id="servico" name="servico" required>
+                        <option value="">Selecione um serviço</option>
+                        <option value="criacao">Criação de Sites</option>
+                        <option value="manutencao">Manutenção Web</option>
+                        <option value="suporte">Suporte Técnico</option>
+                        <option value="consultoria">Consultoria</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Forma Preferencial de Contato *</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="contato_pref" value="email" required> E-mail</label>
+                        <label><input type="radio" name="contato_pref" value="telefone"> Telefone</label>
+                        <label><input type="radio" name="contato_pref" value="whatsapp"> WhatsApp</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="descricao">Descrição da Necessidade *</label>
+                    <textarea id="descricao" name="descricao" rows="4" required placeholder="Conte um pouco sobre o que sua empresa precisa..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-enviar">Enviar Solicitação</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p><strong>Nexus Tech Solutions</strong> | Recife – PE</p>
+            <p>Horário de atendimento: Segunda a sexta-feira, das 8h às 18h.</p>
+            <p>E-mail: contato@nexustech.com.br | Telefone: (81) 3333-0000</p>
+        </div>
+    </footer>
+
+</body>
+</html>
